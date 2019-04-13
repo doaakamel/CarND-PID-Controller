@@ -1,0 +1,22 @@
+The effect of the P, I, D component of the PID algorithm in their implementation:
+
+The effect of P is the proportional term in PID this term is directly porportional to the error in the steering angle, this term is choosen to
+be 0.2 in this project.
+
+The effect of I is the integrator that accumaltes the error to remove any biased valued in other terms when the steering angle gets same biased 
+error for a long time the integrator part accumaltes this error to give more action than that given by the proportional part
+this doesn't seem to happen in this project so i choose small value for integrator part.
+
+The effect of D this part removes overshot i increased it's value in this project to make sure that the car not get out of the road.
+I choosed the value of 3 which is relatively high compared to the P and I.
+
+I have expected this with the exception that i thought that I would need higher value than that in I part.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+CHOOSING THE PARAMETERS CRITERIA:
+I have choosed the parameters by manually tuning only until I get statisfied with the results.
+
+
+
+
+
